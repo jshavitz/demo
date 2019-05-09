@@ -1,14 +1,120 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"result": {
+		"total": 2,
+		"orders": [{
+				"id": "0000-000000-00000000-00009801",
+				"appKey": "jukekiosk",
+				"appRef": "1000juke-afa0-2019-0000-000000000000",
+				"locationId": "343",
+				"kioskId": "1",
+				"emplId": "159",
+				"expectedAt": "2019-04-05T12:41:56.981Z",
+				"orderNumber": "pos-t-201904051207",
+				"fulfillmentType": "DINE-IN",
+				"reference": "Jane Doe",
+				"netTotal": "1368",
+				"salestax": "109",
+				"grandTotal": "1477",
+				"isTest": "false",
+				"orderDetail": [{
+						"itemName": "Cheeseburger",
+						"instructions": [],
+						"sku": "901",
+						"parentSKU": [],
+						"price": "895",
+						"quantity": "1",
+						"total": "895"
+					},
+					{
+						"itemName": "No Onions",
+						"instructions": [],
+						"sku": "4531",
+						"parentSKU": "901",
+						"price": "000",
+						"quantity": "1",
+						"total": "000"
+					},
+					{
+						"itemName": "Add Swiss Chz",
+						"instructions": [],
+						"sku": "4601",
+						"parentSKU": "901",
+						"price": "75",
+						"quantity": "1",
+						"total": "75"
+					},
+					{
+						"itemName": "Large Fries",
+						"instructions": "Extra crispy",
+						"sku": "1009",
+						"parentSKU": [],
+						"price": "199",
+						"quantity": "2",
+						"total": "398"
+					}
+				],
+				"payments": {
+					"amount": "1477",
+					"paymentType": "2"
+				}
+			},
+			{
+				"id": "0000-000000-00000000-00019804",
+				"appKey": "jukekiosk",
+				"appRef": "1000juke-afa0-2019-0000-000000000000",
+				"locationId": "343",
+				"kioskId": "2",
+				"emplId": "159",
+				"expectedAt": "2019-04-05T01:33:54.921Z",
+				"orderNumber": "pos-t-201904051323",
+				"fulfillmentType": "DINE-IN",
+				"reference": "John Doe",
+				"netTotal": "1588",
+				"salestax": "127",
+				"grandTotal": "1715",
+				"isTest": "false",
+				"orderDetail": [{
+						"itemName": "Pepperoni Pizza",
+						"instructions": [],
+						"sku": "801",
+						"parentSKU": [],
+						"price": "695",
+						"quantity": "2",
+						"total": "1390"
+					},
+					{
+						"itemName": "Pesto Sauce",
+						"instructions": [],
+						"sku": "4831",
+						"parentSKU": "801",
+						"price": "000",
+						"quantity": "2",
+						"total": "000"
+					},
+					{
+						"itemName": "Add Swiss Chz",
+						"instructions": [],
+						"sku": "4601",
+						"parentSKU": "801",
+						"price": "75",
+						"quantity": "2",
+						"total": "75"
+					},
+					{
+						"itemName": "Ranch Dressing",
+						"instructions": "Low Cal",
+						"sku": "220",
+						"parentSKU": [],
+						"price": "99",
+						"quantity": "2",
+						"total": "198"
+					}
+				],
+				"payments": {
+					"amount": "1715",
+					"paymentType": "2"
+				}
+			}
+		]
+	}
 }
